@@ -7,7 +7,7 @@ This is Wiki-Bot, a prototype ai designed to use wikipedia to answer questions.
 </head>
 <body>
 
-<label for="query" style="color: #808080">Ask a question...</label>
+<label for="query" style="color: #808080;">Ask a question...</label>
 <input type="text" id="query" name="query">
 
 
