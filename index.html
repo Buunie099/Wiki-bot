@@ -15,17 +15,15 @@ border: 2px groove gray;
 <label for="query"><p style="color: gray;">Ask a question...</p></label>
 <input type="text" id="query" name="query">
 <input type="submit" value="Submit">
+<label for="link"><p style="color: gray;">Waiting...</p></label>
 </form>
 
 <script>
-var query = document.getElementById("query").innerHTML 
+var query = document.getElementById("query").innerHTML; 
+var url = "en.wikipedia.org/wiki/";
+var link = url + query;
 </script>
 
-<script type="text/javascript">
-var url = "en.wikipedia.org/wiki/";
-<script>
-document.write('<a href="'url + query'">Link</a>');
-</script>
 
 </body>
 </html>
