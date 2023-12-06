@@ -7,7 +7,8 @@ This is Wiki-Bot, a prototype ai designed to use wikipedia to answer questions.
 </head>
 <body>
 
-<h1>Welcome to Wiki-Bot!</h1>
+<label for="query"><font color="gray">Ask a question...</font></label>
+<input type="text" id="query" name="query">
 
 
 </body>
