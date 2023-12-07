@@ -19,11 +19,10 @@ border: 2px groove gray;
 </form>
 
 <script>
-var query = document.getElementById("query").innerHTML; 
+var query = document.getElementById("query"); 
 var url = "en.wikipedia.org/wiki/";
-var link = url + query;
+document.getElementById("link") = url + " " + query;
 </script>
-
 
 </body>
 </html>
